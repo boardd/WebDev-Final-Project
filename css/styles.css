@@ -93,30 +93,33 @@
 /*Home page Main Section on top of the bg image*/
 .home-section1{
     margin-top:30px;
-    margin-left:10%;
+    margin-left:5%;
+    width:40%;
+    /* background-color: antiquewhite; */
 }
 
 .home-section1 h3{
     color: #AC3240;
     font-weight: bold;
-    font-size:15px;
+    font-size:20px;
     letter-spacing: -1px;
 }
 
 .home-section1 h1{
-    width:50%;
-    text-shadow: 1px 1px #131313;
+    text-shadow: 1px 1px #030303;
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 900;
-    font-size: 56.6399px;
+    font-size: 46.6399px;
     line-height: 71px;
     color: #1D1D1D;
+    width:90%;
+
 }
 
 .home-section1 p{
     margin-top:40px;
-    width:40%;
+    width:80%;
 }
 
 .home-section1 a{
@@ -130,4 +133,122 @@
     padding-bottom:12px;
     border-radius: 10px;
     margin-top: 40px !important;
+}
+
+.home-section1-container{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+}
+
+.home-section1-picture img{
+    margin-top:50px;
+    margin-left:10px;
+    width: 600px;
+}
+
+
+.what-we-offer-container{
+    
+    padding-top:30px;
+    padding-left:7%;
+    background-color:white;
+    margin:-20px;
+}
+
+.what-we-offer-container h3{
+    color: #AC3240;
+    font-weight: bold;
+    font-size:20px;
+    letter-spacing: 0px;
+}
+
+.what-we-offer-container h1{
+    text-shadow: 1px 1px #030303;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46.6399px;
+    line-height: 71px;
+    color: #1D1D1D;   
+}
+
+
+/*Main page section 2: Are you an */
+.card{
+    width:70%;
+    margin-left:-1px;
+    border-radius: 50px 35px 35px 50px;
+    margin-bottom:30px;
+}
+
+.card h2{
+    margin-left: 15px;
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+
+.div-line{
+    border-bottom: 3px solid #AC3240;
+    width: 40px;
+    margin-left:15px;
+    margin-bottom:20px;
+}
+
+.card h3{
+    margin-left:15px;
+}
+
+.card p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:15px;
+    margin-top:15px;
+    margin-bottom:35px;
+}
+
+.card-body{
+    background-image: url("/media/home-blur2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 30px 30px;
+    padding-bottom:100px;
+
+}
+
+#card-body-2{
+    background-image: url("/media/home-blur3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.red{
+    color:#AC3240;
+}
+
+
+/*Check Container */
+.check-container{
+    margin-top:10px;
+}
+
+#check{
+    float:left;
+    margin-right:10px;
+    margin-top:3px;
+}
+
+.check-container h3{
+    font-size: 1rem;
+    font-weight:900;
+    text-shadow: 0.3px 0.3px #AC3240;
+   
+}
+
+/*Home Page Section 3: Our Events*/
+.our-events-container{
+    background: #F5F5F5;
+    margin-top:20px;
+    margin-left:-15px;
+    margin-right: -15px;
 }
