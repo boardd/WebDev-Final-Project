@@ -3,6 +3,14 @@
     margin:0px;
     padding:0px;
 }
+/* body{
+    background-image: url("/media/home-blur.png");
+    background-repeat: no-repeat;
+    width:100%;
+    object-fit: cover;
+
+} */
+
 
 /*Nav Bar Socials*/
 .top-nav-socials{
@@ -68,3 +76,16 @@
     justify-content: end;
 }
 
+
+/*Home page Main Section*/
+.bg{
+    z-index: -1;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover;
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
