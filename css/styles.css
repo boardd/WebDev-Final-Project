@@ -89,3 +89,45 @@
     min-width: 100%;
     min-height: 100%;
 }
+
+/*Home page Main Section on top of the bg image*/
+.home-section1{
+    margin-top:30px;
+    margin-left:10%;
+}
+
+.home-section1 h3{
+    color: #AC3240;
+    font-weight: bold;
+    font-size:15px;
+    letter-spacing: -1px;
+}
+
+.home-section1 h1{
+    width:50%;
+    text-shadow: 1px 1px #131313;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56.6399px;
+    line-height: 71px;
+    color: #1D1D1D;
+}
+
+.home-section1 p{
+    margin-top:40px;
+    width:40%;
+}
+
+.home-section1 a{
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #AC3240;
+    color:white !important;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:12px;
+    padding-bottom:12px;
+    border-radius: 10px;
+    margin-top: 40px !important;
+}
