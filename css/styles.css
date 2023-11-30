@@ -1,0 +1,70 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+/*Nav Bar Socials*/
+.top-nav-socials{
+    position: absolute;
+    top: 1px;
+    left:0px;
+    width:100%;
+    background: #AC3240;
+    margin-top:0px;
+    padding-top:0px;
+    background-color: #AC3240;
+    height:40px;
+}
+
+/*List Items*/
+.top-nav-socials li{
+    padding-right: 25px;
+    padding-top:5px;
+    color:white;
+    text-decoration: underline;
+}
+
+/*icon class white*/
+.white{
+    color:white;
+}
+
+.black{
+    color:black;
+}
+
+/*Main Nav Bar*/
+.navbar-brand a{
+    list-style: none;
+    color:black;
+}
+
+#main-nav{
+    margin-top:20px;
+}
+
+
+#nav-connect{
+    background-color: #AC3240;
+    color:white;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 25px;
+}
+
+.align{
+    margin-top:20px;
+    padding-right:20px;
+    display: flex;
+    justify-content: end;
+}
+
+/*Right aligns the three main nav bars -Gets them to float right*/
+.right-align{
+    display: flex;
+    justify-content: end;
+}
+
