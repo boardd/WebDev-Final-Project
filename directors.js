@@ -11,7 +11,6 @@ const directors = [
     { name: "Janel Skelley", image: "media/board/image_9.png", description: "Janel joined the Allegheny Conference on Community Development in 2005 and is the Conference’s chief financial officer. She oversees the financial operations of the organization. She also oversees all of the human resource, information technologies and administrative operations of the Conference including facilities management and space planning." },
 ];
 
-// Function to create a director card
 function createDirectorCard(director) {
     return `
         <div class="col-md-4 director-card">
@@ -24,7 +23,7 @@ function createDirectorCard(director) {
     `;
 }
 
-// Populate the directorsRow with director cards
+
 $(document).ready(function() {
     let htmlContent = '';
     directors.forEach(director => {
