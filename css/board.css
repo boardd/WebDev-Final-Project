@@ -1,0 +1,42 @@
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.director-card {
+    display: flex;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.director-photo {
+    width: 35%;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the area, might crop it */
+    aspect-ratio: 1 / 1; /* Makes the image square */
+}
+
+.card-body {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.director-title {
+    color: #AC3240; /* Adjust the color to match your design */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.director-description {
+    color: #000000; /* Dark text color */
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.2;
+}
