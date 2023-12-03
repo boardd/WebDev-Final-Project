@@ -1,0 +1,168 @@
+ul.custom-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.custom-list li {
+    position: relative;
+    margin-bottom: 10px; /* Spacing between items */
+}
+
+ul.custom-list li::before {
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin-left: 0px;
+    color: #AC3240;
+    padding-left: 0;
+    margin-right: 8px;
+    content: "\F26A";
+    font-family: bootstrap-icons !important;
+}
+.box {
+    width: 100%;
+    margin: 0 auto; /* Center the box */
+    padding: 20px; /* Add some padding */
+}
+
+/* Ensure the image takes the full width of its container and is responsive */
+.left-img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Center the content of the column vertically */
+.row {
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+}
+.subtitle {
+    font-size: 1.5vw;
+    color:#AC3240;
+}
+.text {
+    font-size: 1vw;
+    color: #000000;
+
+}
+/* Adjust the columns to have some space between them */
+@media (min-width: 576px) { /* Adjust this breakpoint as per your design */
+    .col-sm-5 {
+        flex: 0 0 auto; /* Adjust flex basis */
+        width: 40%; /* Adjust the width of each column */
+        padding: 15px; /* Add some padding */
+    }
+}
+* {
+    box-sizing: border-box;
+  }
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #AC3240;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    /* margin-left: -3px; */
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -15px;
+    background-color: #AC3240;
+    border: 4px solid #AC3240;
+    top: 35px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: -25%;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 25%;
+  }
+  
+
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -10px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    .left-img {
+        display: none;
+    }
+    .timeline {
+        display: none;
+    }
+    /* Place the timelime to the left */
+    .timeline::after {
+    left: 31px;
+    }
+    
+    /* Full-width containers */
+    .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+  }

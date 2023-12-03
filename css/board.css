@@ -1,0 +1,41 @@
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.director-card {
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the container */
+    border: none;
+    height: 300px;
+}
+
+.director-photo {
+    width: 35%;
+    height: 80%;
+    object-fit: cover; 
+    margin-bottom: 0px;
+}
+
+.card-body {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.director-title {
+    color: #AC3240;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.director-description {
+    color: #000000; /* Dark text color */
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 0px;
+}
