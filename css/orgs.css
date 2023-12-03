@@ -2,20 +2,32 @@
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 50% !important; /* Full-width */
+    width: 100% !important; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
+    border: 3px solid #AC3240; /* Add a grey border */
     display: block;
     margin: auto;
     margin-bottom: 12px; /* Add some space below the input */
-    
+  }
+
+  #myInput2 {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100% !important; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 3px solid #AC3240; /* Add a grey border */
+    display: block;
+    margin: auto;
+    margin-bottom: 12px; /* Add some space below the input */
   }
   
   #myTable {
     border-collapse: collapse; /* Collapse borders */
-    width: 80%; /* Full-width */
-    border: 1px solid #ddd; /* Add a grey border */
+    width: 100%; /* Full-width */
+    border: 3px solid #AC3240; /* Add a grey border */
     font-size: 18px; /* Increase font-size */
     margin: auto;
   }
@@ -27,19 +39,27 @@
   
   #myTable tr {
     /* Add a bottom border to all table rows */
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #AC3240;
   }
   
-  #myTable tr.header, #myTable tr:hover {
+  #myTable tr.header {
     /* Add a grey background color to the table header and on hover */
-    background-color: #f1f1f1;
+    background-color: #AC3240;
+    color: #F5F5F5;
   }
 
-
+  #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #AC3240;
+    opacity: 0.85;
+    color: #F5F5F5;
+    
+  }
 
 .table-container{
     padding-top:30px;
-    padding-left:7%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color:white;
     margin:-20px;
 }
@@ -51,14 +71,6 @@
     margin:0px;
     padding:0px;
 }
-/* body{
-    background-image: url("/media/home-blur.png");
-    background-repeat: no-repeat;
-    width:100%;
-    object-fit: cover;
-
-} */
-
 
 /*Nav Bar Socials*/
 .top-nav-socials{
@@ -180,6 +192,18 @@
     border-radius: 10px;
 }
 
+.home-section1-button{
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #AC3240 !important;
+    color:white !important;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+}
+
 .home-section1-container{
     /* background-color: blue; */
     display: flex;
@@ -187,8 +211,11 @@
 }
 
 .home-section1-picture img{
-    margin-top:auto;
-    width: 100%;
+    /* padding-top: 30px; */
+    margin: auto;
+    width: 90%;
+    border-radius: 10%;
+    display: block !important;
 }
 
 
