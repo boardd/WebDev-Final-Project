@@ -13,7 +13,7 @@ const directors = [
 
 function createDirectorCard(director) {
     return `
-        <div class="col-md-4 director-card">
+        <div class="col-lg-4 col-sm-6 director-card">
             <img src="${director.image}" alt="${director.name}" class="director-photo">
             <div class="card-body">
                 <h3 class="director-title">${director.name}</h3>
