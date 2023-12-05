@@ -100,21 +100,19 @@
 
 .home-section1 h3{
     color: #AC3240;
-    font-weight: bold;
+    font-weight: 550;
     font-size:20px;
     letter-spacing: -1px;
 }
 
 .home-section1 h1{
-    text-shadow: 1px 1px #030303;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 46.6399px;
     line-height: 71px;
     color: #1D1D1D;
     width:90%;
-
 }
 
 .home-section1 p{
@@ -164,8 +162,7 @@
 }
 
 .what-we-offer-container h1{
-    text-shadow: 1px 1px #030303;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 46.6399px;
@@ -197,6 +194,7 @@
 
 .card h3{
     margin-left:15px;
+    letter-spacing: 1px;
 }
 
 .card p{
@@ -265,8 +263,7 @@
 }
 
 .our-events-container h1{
-    text-shadow: 1px 1px #030303;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 46.6399px;
