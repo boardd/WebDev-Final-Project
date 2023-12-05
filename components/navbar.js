@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
               </a>
               <ul class="dropdown-menu dropdown-menu-light">
                 <li><a class="dropdown-item" href="#">Individuals</a></li>
-                <li><a class="dropdown-item" href="#">Businesses & Organizations</a></li>
+                <li><a class="dropdown-item" href="./organization">Businesses & Organizations</a></li>
               </ul>
             </li>
 

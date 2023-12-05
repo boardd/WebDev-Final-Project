@@ -2,7 +2,8 @@ h2 {
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
     font-size: 36px;
-}
+} 
+
 
 .director-card {
     display: flex;
@@ -38,4 +39,27 @@ h2 {
     font-weight: 100;
     line-height: 1.2;
     margin-bottom: 0px;
+}
+
+@media (min-width: 500px) and (max-width: 990px) {
+    .bd-example {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .director-card {
+        display: flex;
+        width: 600px;
+        align-items: flex-start; /* Align items to the start of the container */
+        border: none;
+        height: 300px;
+    }
+
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    .director-card {
+        flex: 0 0 50%; /* Equivalent to col-6, sets the base size */
+        max-width: 50%; /* Also set max-width to 50% */
+    }
+
 }
