@@ -3,7 +3,7 @@
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 100% !important; /* Full-width */
-    font-size: 16px; /* Increase font-size */
+    font-size: 1em; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 3px solid #AC3240; /* Add a grey border */
     display: block;
@@ -16,7 +16,7 @@
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 100% !important; /* Full-width */
-    font-size: 16px; /* Increase font-size */
+    font-size: 1em; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 3px solid #AC3240; /* Add a grey border */
     display: block;
@@ -28,18 +28,25 @@
     border-collapse: collapse; /* Collapse borders */
     width: 100%; /* Full-width */
     border: 3px solid #AC3240; /* Add a grey border */
-    font-size: 18px; /* Increase font-size */
+    font-size: 1.2em; /* Increase font-size */
     margin: auto;
   }
   
   #myTable th, #myTable td {
     text-align: left; /* Left-align text */
-    padding: 12px; /* Add padding */
+    padding-top: 12px; /* Add padding */
+    padding-bottom: 12px;
+    padding-left: 1%;
+    padding-right: 1%;
   }
   
   #myTable tr {
     /* Add a bottom border to all table rows */
     border-bottom: 1px solid #AC3240;
+  }
+
+  tr a{
+    color:#AC3240 ;
   }
   
   #myTable tr.header {
@@ -53,8 +60,11 @@
     background-color: #AC3240;
     opacity: 0.85;
     color: #F5F5F5;
-    
   }
+
+  tr:hover a { 
+    color: #F5F5F5; 
+}
 
 .table-container{
     padding-top:30px;
