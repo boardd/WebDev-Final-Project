@@ -20,6 +20,7 @@ function searchIndustry(){
   tr = table.getElementsByTagName("tr");
   
   // Iterate through the rows
+  count = 0
   for (i = 0; i < tr.length; i++) {
     // Get the Industy column of the table
     td = tr[i].getElementsByTagName("td")[1];
@@ -32,23 +33,37 @@ function searchIndustry(){
       // Both Filters Used
       if(industry !== undefined && name !== undefined && name.value != "" && industry.value != "" && txtValue.toUpperCase().indexOf(filter_industry) > -1 && txtValue2.toUpperCase().indexOf(filter_name) > -1){
         tr[i].style.display = "";
+        count ++;
       }
       // Only Filter by Name
       else if(name !== undefined && name.value != "" && industry.value == "" && txtValue2.toUpperCase().indexOf(filter_name) > -1){
         tr[i].style.display = "";
+        count ++;
       }
       // Only filter by Industry
       else if (industry !== undefined && industry.value != "" && name.value == "" && txtValue.toUpperCase().indexOf(filter_industry) > -1) {
         tr[i].style.display = "";
+        count ++;
       } 
       // No filters applied
       else if (industry !== undefined && name !== undefined && name.value == "" && industry.value == "") {
         tr[i].style.display = "";
+        count ++;
       }
       // Not show results not filtered
       else {
         tr[i].style.display = "none";
       }
     }
+  }
+  console.log(count)
+  no_res = document.getElementById("no-res")
+  if (count == 0){
+    console.log("no Results")
+    no_res.style.display = "block"
+  }
+  else{
+    console.log("results")
+    no_res.style.display = "none"
   }
 }
