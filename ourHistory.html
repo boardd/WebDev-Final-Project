@@ -19,11 +19,66 @@
   </head>
   <body class="p-3 m-0 border-0 bd-example">
     <!-- Navigation -->
-    <script src="./components/navbar.js"></script>
-    
+    <nav class="navbar navbar-expand-lg navbar-light"">
+      <div id='main-nav' class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/media/umami-logo.png" height="150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse right-align" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <!--Dropdown menus: Who we are-->
+            <li class="nav-item dropdown align">
+              <a class="nav-link dropdown-toggle black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Semantics & Meanings
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light">
+                <li><a class="dropdown-item" href="./about.html">Semantics</a></li>
+                <li><a class="dropdown-item" href="./board.html">Meanings</a></li>
+              </ul>
+            </li>
+            
+            <!--Dropdown menus: Our Community-->
+            <li class="nav-item dropdown align">
+              <a class="nav-link dropdown-toggle black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                History
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light">
+                <li><a class="dropdown-item" href="./orgs.html">History</a></li>
+                <li><a class="dropdown-item" href="./ourHistory.html">A Timeline</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown align">
+              <a class="nav-link dropdown-toggle black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Phonology
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light">
+                <li><a class="dropdown-item" href="#">Borrowings and Change</a></li>
+              </ul>
+            </li>
+
+            <!--Dropdown menus: Events-->
+            <li class="nav-item dropdown align">
+              <a class="nav-link dropdown-toggle black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Morphology
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light">
+                <li><a class="dropdown-item" href="#">A look at the Morphological Change</a></li>
+              </ul>
+            </li>
+            <!--Dropdown menus: Connect With Us-->
+            <li class="nav-item dropdown align"><a id="nav-connect">Take A Quiz!</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- Information -->
     <div class="container mt-3">
-    <h2 class="text-center mb-3">Our History</h2>
+    <h2 class="text-center mb-3">History of Umami: </h2>
       
       <!-- timeline -->
       <div class="timeline-section">
@@ -43,10 +98,11 @@
                   <div class="timeline-card_item">
                     <div class="timeline-card_inner">
                       <div class="timeline-card_info">
-                        <div class="timeline-card-title">3 Women</div>
-                        <div class="timeline-card-subtitle">October 2017</div>
+                        <div class="timeline-card-title">From the Chinese Character: 旨 </div>
+                        <div class="timeline-card-subtitle">4th Century</div>
                         <div class="timeline-card-body">
-                            It all started with a spontaneous conversation about breaking barriers, building bridges and the power of connections to advance women.
+                          Meanings of 旨 in Chinese (/*jǐ/ Tang Dynasty): Excellent, usually used to describe food (食~) or alcohol (~酒)
+
                         </div>
                       </div>
                     </div>
@@ -62,10 +118,11 @@
                   <div class="timeline-card_item">
                     <div class="timeline-card_inner">
                       <div class="timeline-card_info align-right">
-                        <div class="timeline-card-title">6 Women</div>
-                        <div class="timeline-card-subtitle">November 2017</div>
+                        <div class="timeline-card-title">From the Japanese Word: うま</div>
+                        <div class="timeline-card-subtitle">17th - 18th Century</div>
                         <div class="timeline-card-body align-right">
-                            The conversation grew into an "idea" over dinner as we explored opportunities to build bridges between our diverse organizations. We left energized about the possibilities and potential to advance women.
+                          Meanings of 旨 in Japanese ( /*kijʔ/): (うま uma.i [ɯma]) delicious
+
                         </div>
                       </div>
                     </div>
@@ -81,54 +138,16 @@
                   <div class="timeline-card_item">
                     <div class="timeline-card_inner">
                       <div class="timeline-card_info">
-                        <div class="timeline-card-title">12 Women</div>
-                        <div class="timeline-card-subtitle">December 2017</div>
+                        <div class="timeline-card-title">To the English Word: Umami</div>
+                        <div class="timeline-card-subtitle">1960s</div>
                         <div class="timeline-card-body">
-                            The “idea” strengthened over an even bigger dinner. A dozen women from different organizations discovered that we all share a desire to:
-                            Help women make connections, advance and thrive in the Pittsburgh region.
-                            Coordinate efforts and keep it simple.                            
+                          Borrowed into English in the 1960s, specifically earliest evidence 1963 (2). First invented in 1909 by a Japanese Chemist (1)                
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-      
-                <div class="history-timeline_item timeline_item">
-                  <div class="timeline-card_box">
-                    <div class="history-timeline-card_point-box timeline-card_point-box">
-                      <div class="timeline-card_point"></div>
-                    </div>
-                  </div>
-                  <div class="timeline-card_item">
-                    <div class="timeline-card_inner">
-                      <div class="timeline-card_info align-right">
-                        <div class="timeline-card-title">24 Women</div>
-                        <div class="timeline-card-subtitle">February 2018</div>
-                        <div class="timeline-card-body align-right">
-                            The "idea" was transformed into a concrete strategy and plan when a diverse group of women representing corporate, professional women's groups, non­-profits and government gathered for a planning session.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <div class="history-timeline_item timeline_item">
-                  <div class="timeline-card_box">
-                    <div class="history-timeline-card_point-box timeline-card_point-box">
-                      <div class="timeline-card_point"></div>
-                    </div>
-                  </div>
-                  <div class="timeline-card_item">
-                    <div class="timeline-card_inner">
-                      <div class="timeline-card_info">
-                        <div class="timeline-card-subtitle">February 2018</div>
-                        <div class="timeline-card-body">
-                            The Pittsburgh Women's Alliance was launched and we began building a database website with the assistance of a Carnegie Mellon University student, Sara Banten.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+           
       
                 <div class="history-timeline_item timeline_item">
                   <div class="timeline-card_box">
@@ -140,7 +159,7 @@
                     <div class="timeline-card_inner">
                       <div class="timeline-card_info align-right">
                         <div class="timeline-card-body align-right">
-                            <span class="today">Today,</span> we are an alliance of over 50 (and growing) women’s organizations who share an interest in optimizing our collective impact to attract, retain and advance diverse professional women in the Pittsburgh region.
+                            <span class="today">
                         </div>
                       </div>
                     </div>

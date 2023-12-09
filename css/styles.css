@@ -91,6 +91,14 @@
 }
 
 /*Home page Main Section on top of the bg image*/
+.height{
+    height:700px;
+}
+
+.carousel-inner{
+    font-size: 1.5rem;
+}
+
 .home-section1{
     margin-top:30px;
     margin-left:5%;
