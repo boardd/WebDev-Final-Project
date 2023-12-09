@@ -39,16 +39,44 @@ ul.custom-list li::before {
     justify-content: center; /* Horizontal alignment */
 }
 .subtitle {
-    font-size: 1.5vw;
+    font-size: 22px;
     color:#AC3240;
 }
 .text {
-    font-size: 1vw;
+    font-size: 14px;
     color: #000000;
 
 }
+
+.home-section1 {
+    padding-top:60px;
+}
+.box {
+    width: 90%;
+    
+}
+@media (max-width: 1000px) {
+    .drop{
+        display: none;
+    
+    }
+    .home-section1 {
+        padding-top:60px;
+        width:80%;
+    }
+    .box {
+        width: 80%;
+    }
+    .custom {
+        max-width: 100%;
+    }
+    .left-img {
+        margin-bottom: 30px;
+    }
+}
+
 /* Adjust the columns to have some space between them */
-@media (min-width: 576px) { /* Adjust this breakpoint as per your design */
+@media (min-width: 576px) { 
     .col-sm-5 {
         flex: 0 0 auto; /* Adjust flex basis */
         width: 40%; /* Adjust the width of each column */
@@ -79,7 +107,7 @@ ul.custom-list li::before {
   }
   
   /* Container around content */
-  .container {
+  .container{
     padding: 10px 40px;
     position: relative;
     background-color: inherit;

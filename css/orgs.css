@@ -3,7 +3,7 @@
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 100% !important; /* Full-width */
-    font-size: 16px; /* Increase font-size */
+    font-size: 1em; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 3px solid #AC3240; /* Add a grey border */
     display: block;
@@ -16,7 +16,7 @@
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 100% !important; /* Full-width */
-    font-size: 16px; /* Increase font-size */
+    font-size: 1em; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 3px solid #AC3240; /* Add a grey border */
     display: block;
@@ -28,18 +28,29 @@
     border-collapse: collapse; /* Collapse borders */
     width: 100%; /* Full-width */
     border: 3px solid #AC3240; /* Add a grey border */
-    font-size: 18px; /* Increase font-size */
+    font-size: 1.2em; /* Increase font-size */
     margin: auto;
   }
   
   #myTable th, #myTable td {
     text-align: left; /* Left-align text */
-    padding: 12px; /* Add padding */
+    padding-top: 12px; /* Add padding */
+    padding-bottom: 12px;
+    padding-left: 1%;
+    padding-right: 1%;
   }
   
   #myTable tr {
     /* Add a bottom border to all table rows */
     border-bottom: 1px solid #AC3240;
+  }
+
+  tr a{
+    color:#AC3240 ;
+  }
+
+  #no-res{
+    display: none;
   }
   
   #myTable tr.header {
@@ -53,13 +64,17 @@
     background-color: #AC3240;
     opacity: 0.85;
     color: #F5F5F5;
-    
   }
+
+  tr:hover a { 
+    color: #F5F5F5; 
+}
 
 .table-container{
     padding-top:30px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 30px;
     background-color:white;
     margin:-20px;
 }
@@ -158,16 +173,16 @@
 
 .home-section1 h3{
     color: #AC3240;
-    font-weight: bold;
+    font-weight: normal;
     font-size:20px;
     letter-spacing: -1px;
 }
 
 .home-section1 h1{
-    text-shadow: 1px 1px #030303;
+    /* text-shadow: 1px 1px #030303; */
     font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 900;
+    font-style: bold;
+    font-weight: 700;
     font-size: 46.6399px;
     line-height: 71px;
     color: #1D1D1D;
@@ -194,7 +209,7 @@
 
 .home-section1-button{
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: normal;
     background-color: #AC3240 !important;
     color:white !important;
     padding-left:30px;
@@ -235,8 +250,7 @@
 }
 
 .what-we-offer-container h1{
-    text-shadow: 1px 1px #030303;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 46.6399px;
@@ -312,7 +326,7 @@
 .check-container h3{
     font-size: 1rem;
     font-weight:900;
-    text-shadow: 0.3px 0.3px #AC3240;
+    /* text-shadow: 0.3px 0.3px #AC3240; */
    
 }
 
